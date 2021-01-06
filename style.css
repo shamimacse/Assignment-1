@@ -29,6 +29,29 @@ h1{
         font-size: 15px;
        
     }
+.top-menu {
+    height: 55px;
+    line-height: 55px;
+    background: #ffffff;
+    box-shadow: 0 1px 10px #f6f6f6;
+}
+.top-menu ul {
+    list-style: none;
+    float: right;
+    margin: 0 5% 0 5%;
+}
+.top-menu ul li {
+    float: left;
+}
+.top-menu ul li a {
+    padding: 0 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+
 .name-highlight{
     font-size: 40px;
     color:orange;
@@ -42,13 +65,12 @@ h1{
     padding-top: 5%;
   }
     .half-width img{
-        width: 100%;
+        width: 80%;
        
     }
 
 section{
     height: 500px;
-   padding-bottom: 100px;
 }
 .link-button{
     text-decoration: none;
@@ -66,8 +88,8 @@ section{
 }
 
 .about{
-    padding-top: 10px;
-    margin-top: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
     background-image:url(images/exp-bg.png);
     background-repeat:no-repeat;
     background-position: right;
@@ -79,6 +101,10 @@ section{
     padding: 60px 0;
     margin-top: 30px;
     text-align: center;
+}
+.Creative-site h1 {
+    text-transform: uppercase;
+    font-size: 50px;
 }
 .dark-blue {
     color: #363958;
@@ -131,18 +157,10 @@ section{
         height: 80%;
         border-radius: 5px;
 }
-section{
-  padding-bottom: 100px;
-}
 
-/* .blue-button img{
-width: 60%;
-height: 40%;
-padding-left: 10%;
-margin-left:10%;
-} */
 
 .blue-button {
+    margin-top: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -175,4 +193,33 @@ margin-left:10%;
     display: inline-block;
     text-decoration: none;
     border-radius: 3px;
+}
+
+
+
+.stay-connected {
+    text-align: center;
+    padding: 10px 0 60px 0;
+}
+.stay-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #3b3b3b;
+}
+.stay-email {
+    font-weight: 700;
+    font-size: 25px;
+    color: #363958;
+}
+.stay-connected ul {
+    list-style: none;
+}
+.stay-connected ul li a {
+    text-decoration: none;
+}
+.stay-connected ul li a img {
+    width: 40px;
+    height: 40px;
+    margin: 20px 10px 0;
 }
